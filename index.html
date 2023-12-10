@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMSORRY STYLE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="color">
+    <header>
+        <div class="conteiners">
+            <div class="nav-img-contnent">
+                <br>
+                <img class="nav-img" src="images/IMSORRYSTYLE.png" alt="">
+                <img class="nav-img2" src="./images/rtjtytrhtr.png">
+            </div>
+        </div>
+
+        <nav class="nav">
+            <div class="conteiners">
+
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Меню
+                    </a>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="golovna.html">Головна</a></li>
+                        <li><a class="dropdown-item" href="vidguk.html">Відгуки</a></li>
+                        <li><a class="dropdown-item" href="confi.html">Конфіденційність</a></li>
+                        <li><a class="dropdown-item" href="pronas.html">Про нас</a></li>
+                        <li><a class="dropdown-item" href="contacty.html">Контакти</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-content">
+                    <ul class="menu">
+                        <li>
+                            <a href="golovna.html">Головна</a>
+                            <ul>
+                                <li><a href="tovary.html">Товари</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="vidguk.html">Відгуки</a>
+                            <ul>
+                                <li><a href="confi.html">Конфіденційність</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="pronas.html">Про нас</a>
+                            <ul>
+                                <li><a href="contacty.html">Контакти</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="heart">
+                    <a class="svg" href="https://www.instagram.com/p/Cxu5cLiNwMj/">
+                        <svg class="svg-icons-heart" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="black" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="account">
+                    <a class="svg" href="account.html">
+                        <svg class="svg-icons-person" xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                            fill="black" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <ul id="signInBtn">
+        <li><a>Реєстрація</a></li>
+    </ul>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeBtn">&times;</span>
+            <h2>Реєстрація</h2>
+            <form id="signInForm">
+                <label for="username">Ім'я:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <input type="submit" value="Увійти">
+            </form>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Вгору</button>
+
+    <br>
+
+
+    <br>
+    <main class="main">
+        <section class="top">
+            <div class="previu">
+                <img class="top-photo" src="./images/sdhtrhtr.jpg" width="1442">
+                <input class="search" placeholder="Пошук.." name="search">
+        </section>
+        <section class="products">
+
+            <h1 class="section-title">ТОВАРИ</h1>
+            <div class="conteiners">
+                <ul class="products-list">
+                    <li class="products-item">
+                        <div class="image-two">
+                            <img class="img-prod" src="./images/1.1.jpg" width="500" alt="Товар 1"
+                                style="border-radius: 30px;">
+                            <p class="image-text">DREW HOUSE MASCOT</p>
+                        </div>
+                        <h2>ЧЕРВОНА ФУТБОЛКА DREW HOUSE
+                            MASCOT SS BROWN
+                        </h2>
+                        <p>• Тип тканини
+                            Бавовна
+                            <br>
+                            • Фасон рукава:
+                            Короткий
+                            <br>
+                            • Колір:
+                            Червоний
+                            <br>
+                            • Стан:
+                            Новий
+                            <br>
+                            • Склад:
+                            хлопок
+                        </p>
+                        <p><b>499 грн</b></p>
+
+                        <ul class="addtocart">
+                            <li><a href="golovna.html">Додати в кошик</a>
+                        </ul>
+
+                    </li>
+                    <li class="products-item">
+                        <div class="image-two">
+                            <img class="img-prod" src="./images/1.2.jpg" width="500" alt="Товар 2"
+                                style="border-radius: 30px;">
+                            <p class="image-text">PUMA RS-X REINTVENT</p>
+                        </div>
+                        <h2>КРОСІВКИ PUMA RS-X
+                            <br>
+                            REINTVENT
+                        </h2>
+                        <p>PUMA RS-X Reinvent (37100815) кросівки із сучасним
+                            <br>
+                            дизайном та яскравими елементами. Особливості:
+                            <br>
+                            • Верх виготовлений із замші
+                            <br> • Проміжна підошва з поліуретану
+                            <br> • Гумова підошва для відмінного зчеплення
+                        </p>
+                        <p><b>5880 грн</p></b></p>
+
+                        <ul class="addtocart">
+                            <li><a href="golovna.html">Додати в кошик</a>
+                        </ul>
+                    </li>
+                    <li class="products-item">
+                        <div class="image-two">
+                            <img class="img-prod" src="./images/1.3.webp" width="500" alt="Товар 3"
+                                style="border-radius: 30px;">
+                            <p class="image-text">FRUIT OF THE LOOM</p>
+                        </div>
+                        <h2>ФУТБОЛКА FRUIT THE LOOM
+                            <br>
+                            BILLIE EILISH
+                        </h2>
+                        <p> • Зріст:
+                            152 см
+                            <br>
+                            • Колір:
+                            Білий
+                            <br>
+                            • Матеріал:
+                            Хлопок
+                            <br>
+                            • Виготовлена:
+                            Франція
+                        </p>
+                        <p><b>599 грн</b></p>
+                        <ul class="addtocart">
+                            <li><a href="golovna.html">Додати в кошик</a>
+                        </ul>
+                    </li>
+                    <li class="products-item">
+                        <div class="image-two">
+                            <img class="img-prod" src="./images/1.4.jpg" width="500" alt="Товар 4"
+                                style="border-radius: 30px;">
+                            <p class="image-text">GUESS COLECTIONS</p>
+                        </div>
+                        <h2>ШОРТИ GUESS
+                            <br>
+                            COLECTIONS
+                        </h2>
+                        <p>Szorty Guess виконані із комфортного матеріалу.
+                            <br>
+                            Модель з надзвичайно приємного на дотик матеріалу.
+                            <br>
+                            Ширина штанини знизу: 31 cm.
+                            <br>
+                            Ширина штанини зверху: 36 cm.
+                        </p>
+                        <p><b>690 грн</b></p>
+                        <ul class="addtocart">
+                            <li><a href="golovna.html">Додати в кошик</a>
+                        </ul>
+                    </li>
+                    <li class="products-item">
+                        <div class="image-two">
+                            <img class="img-prod" src="./images/1.5.jpg" width="500" alt="Товар 5"
+                                style="border-radius: 30px;">
+                            <p class="image-text">SCARP FORGOTTEN</p>
+                        </div>
+
+                        <h2>ХУДІ SCARP FORGOTTEN
+                            <br>
+                            CASTLE ZIP
+                        </h2>
+                        <p>Шмот від бренду Scarp – ідеальне поєднання ціни
+                            <br>
+                            та якості. Комфортні футболки та худі зі стильними
+                            <br>
+                            принтами відмінно впишуться в будь-який "лук"
+                        </p>
+                        <p><b>960 грн</b></p>
+                        <ul class="addtocart">
+                            <li><a href="golovna.html">Додати в кошик</a>
+                        </ul>
+                    </li>
+                    <li class="products-item">
+                        <div class="image-two">
+                            <img class="img-prod" src="./images/1.6.jpg" width="500" alt="Товар 6"
+                                style="border-radius: 30px;">
+                            <p class="image-text">CELINE-STYLE</p>
+                        </div>
+                        <h2>БЕЙСБОЛКА CELINE-STYLE UNISEX
+                            CENTER CAP
+                        </h2>
+                        <p>• Розміри:
+                            19.5 x 20 cm
+                            <br>
+                            • Серія:
+                            CELINE Fall/Winter 2023
+                            <br>
+                            • Колір:
+                            Чорний
+                        </p>
+                        <p><b>1150 грн</b></p>
+                        <ul class="addtocart">
+                            <li><a href="golovna.html">Додати в кошик</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+
+
+            </div>
+        </section>
+    </main>
+    <br>
+    <div class="cart">
+        <h2>КОШИК</h2>
+        <ul>
+        </ul>
+        <ul class="add-to-cart">
+            <li><a href="golovna.html">Оформити замовлення</a></li>
+        </ul>
+    </div>
+
+    <br>
+    <footer class="footer">
+        <r>&copy; 2023 ІНТЕРНЕТ-МАГАЗИН БРЕНДОВИХ РЕЧЕЙ IMSORRY STYLE</r>
+    </footer>
+    <script>
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <script>
+        const myBtn = document.getElementById('myBtn');
+
+        myBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }); 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
